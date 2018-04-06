@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    ClaimabilityCheckerBundle\Service\Decider\EuCancelledDecider: ~
+
+    ClaimabilityCheckerBundle\Service\Decider\EuDelayedDecider: ~
